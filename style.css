@@ -65,10 +65,4 @@ h1, h2 {
   max-height: 90%;
 }
 
-.img {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  display: block; 
-  margin: 30px auto;
-}
+
