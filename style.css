@@ -5,6 +5,13 @@ body {
   margin: 0;
 }
 
+.img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block; 
+  margin: 30px auto;
+
 .container {
   max-width: 900px;
   margin: auto;
