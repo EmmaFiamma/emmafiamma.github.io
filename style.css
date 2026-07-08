@@ -51,6 +51,7 @@ h1, h2 {
   height: auto;
   display: block; 
   margin: 30px auto;
+  border: 5px solid red;
 }
 
 .caption {
