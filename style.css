@@ -11,6 +11,7 @@ body {
   height: auto;
   display: block; 
   margin: 30px auto;
+}
 
 .container {
   max-width: 900px;
