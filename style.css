@@ -41,6 +41,14 @@ h1, h2 {
   cursor: pointer;
 }
 
+.photo-serie {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block; 
+  margin: 30px auto;
+}
+
 .caption {
   margin-top: 10px;
   font-size: 14px;
