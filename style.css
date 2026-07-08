@@ -41,7 +41,7 @@ h1, h2 {
   cursor: pointer;
 }
 
-.photo-serie {
+.photo-serie img{
   width: 100%;
   max-width: 900px;
   height: auto;
