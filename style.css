@@ -13,8 +13,8 @@ body {
 
 .container {
   max-width: 900px;
-  margin: auto;
-  padding: 20px 15px;
+  margin: 0;
+  padding: 30px 40px;
 }
 
 h1, h2 {
