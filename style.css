@@ -148,6 +148,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
+    width: 100%
   }
 
 }
