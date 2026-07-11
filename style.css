@@ -91,6 +91,17 @@ h2 {
   max-height: 90%;
 }
 
+.home-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.home-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 @media (max-width: 700px) {
 
   h1 {
@@ -142,17 +153,7 @@ h2 {
   margin-top: 50px;
 }
 
-.home-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-}
 
-.home-gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
 @media (max-width: 899px) {
 
