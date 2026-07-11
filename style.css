@@ -115,5 +115,9 @@ h2 {
     padding-right: 40px;
   }
 
-}
+ header,
+main {
+    max-width: 280px;
+  }
 
+}
