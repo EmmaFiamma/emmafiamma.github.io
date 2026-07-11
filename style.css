@@ -151,3 +151,11 @@ h2 {
   height: auto;
   display: block;
 }
+
+@media (max-width: 899px) {
+
+  .home-gallery {
+    grid-template-columns: 1fr;
+  }
+
+}
