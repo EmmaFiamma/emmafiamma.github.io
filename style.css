@@ -115,9 +115,24 @@ h2 {
     padding-right: 40px;
   }
 
- header,
-main {
-    max-width: 280px;
+  header,
+  main {
+    max-width: none;
+  }
+
+  .home {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+  }
+
+  .menu {
+    width: 250px;
+    flex-shrink: 0;
+  }
+
+  .gallery {
+    flex: 1;
   }
 
 }
