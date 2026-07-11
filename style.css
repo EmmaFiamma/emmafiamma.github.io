@@ -155,10 +155,4 @@ h2 {
 
 
 
-@media (max-width: 899px) {
-
-  .home-gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
 }
