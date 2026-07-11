@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 900px;
   margin: 0;
-  padding: 30px 40px;
+  padding: 20px 15px;
 }
 
 h1, h2 {
@@ -107,4 +107,13 @@ h2 {
 
 }
 
+@media (min-width: 900px) {
+
+  .container {
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+}
 
