@@ -168,11 +168,11 @@ h2 {
 
   .sidebar {
     position: fixed;
-    top: 20px;
+    top: 0px;
     left: 0;
     width: 240px;
     height: 100vh;
-    padding: 20px 40px;
+    padding: 30px 40px;
     box-sizing: border-box;
     background: #faf9f6;
   }
