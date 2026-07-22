@@ -172,7 +172,7 @@ h2 {
     left: 0;
     width: 240px;
     height: 100vh;
-    padding: 40px;
+    padding: 20px 40px;
     box-sizing: border-box;
     background: #faf9f6;
   }
