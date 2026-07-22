@@ -168,7 +168,7 @@ h2 {
 
   .sidebar {
     position: fixed;
-    top: 0;
+    top: 20px;
     left: 0;
     width: 240px;
     height: 100vh;
