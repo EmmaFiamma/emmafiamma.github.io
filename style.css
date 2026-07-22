@@ -143,9 +143,6 @@ h2 {
     flex-shrink: 0;
   }
 
-  .sidebar .menu {
-    margin-top: -1px;
-  }
 
   .home-gallery {
     flex: 1;
@@ -199,7 +196,10 @@ h2 {
     color: #222;
     text-decoration: none;
    }
-
+  
+ .sidebar .menu {
+    margin-top: -8px;
+  }
 
 }
 
