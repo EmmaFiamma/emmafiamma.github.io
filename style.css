@@ -203,5 +203,10 @@ h2 {
     padding: 40px;
   }
 
+  h1 a {
+    color: inherit;
+    text-decoration: none;
+   }
+
 }
 
