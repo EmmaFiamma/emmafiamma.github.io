@@ -75,7 +75,10 @@ h2 {
 
 .contact-page {
   text-align: center;
-  padding-top: 160px;
+}
+
+.contact-page h2 {
+  padding-top: 140px;
 }
 
 /* LIGHTBOX */
