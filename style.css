@@ -132,6 +132,9 @@ h2 {
     font-size: 1rem;
   }
 
+  .sidebar h1 {
+    display: none;
+  }
   
   .mobile-menu-btn {
     display: block;
@@ -164,9 +167,7 @@ h2 {
     transform: translateX(0);
   }
 
-  .sidebar h1 {
-    display: none;
-  }
+
 
 }
 
