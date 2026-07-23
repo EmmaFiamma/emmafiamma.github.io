@@ -73,6 +73,10 @@ h2 {
   color: #555;
 }
 
+.contact-page {
+  text-align: center
+}
+
 /* LIGHTBOX */
 #lightbox {
   position: fixed;
