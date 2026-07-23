@@ -95,6 +95,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
+  padding-top: 40px;
 }
 
 .home-gallery img {
