@@ -176,7 +176,7 @@ h2 {
   .mobile-title {
   display: block;
   position: fixed;
-  top: 20px;
+  top: 25px;
   left: 20px;
   margin: 0;
   z-index: 1000;
