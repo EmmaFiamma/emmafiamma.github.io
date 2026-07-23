@@ -107,8 +107,9 @@ h2 {
 }
 
 .home-gallery img {
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ===== MENU MOBILE ===== */
@@ -192,11 +193,9 @@ h2 {
   padding-top: 20px 12px 0 12px;
 }
 
-  .home-gallery img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+.home-gallery {
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -311,4 +310,3 @@ h2 {
 
 
 }
-
