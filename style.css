@@ -107,9 +107,8 @@ h2 {
 }
 
 .home-gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* ===== MENU MOBILE ===== */
