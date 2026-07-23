@@ -173,6 +173,16 @@ h2 {
   
   }
 
+ .photo-serie {
+    max-width: 600px;
+    margin: 0 auto;
+  
+  }
+
+ .photo-serie img {
+    max-width: 100%;
+  }
+ 
 
 
 /* ===== SIDEBAR FIXE ===== */
