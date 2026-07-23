@@ -118,6 +118,12 @@ h2 {
   display: none;
 }
 
+/* Titre mobile */
+
+.mobile-title {
+  display: none;
+}
+
 @media (max-width: 700px) {
 
   h1 {
@@ -166,6 +172,22 @@ h2 {
   .sidebar.open {
     transform: translateX(0);
   }
+
+  .mobile-title {
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  z-index: 2000;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.mobile-title a {
+  color: #222;
+  text-decoration: none;
+}
 
 
 
