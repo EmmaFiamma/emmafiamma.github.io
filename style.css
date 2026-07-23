@@ -193,6 +193,11 @@ h2 {
   padding-top: 20px 12px 0 12px;
 }
 
+  .home-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 }
 
