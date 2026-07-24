@@ -77,4 +77,31 @@ if (menuBtn && sidebar) {
     sidebar.classList.toggle("open");
   });
 
+const galleryImages = document.querySelectorAll(".gallery-image");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+galleryImages.forEach((img) => {
+  img.addEventListener("click", () => {
+    lightboxImg.src = img.src;
+    lightbox.style.display = "flex";
+  });
+});
+
+lightbox.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+
+
+  
 }
+
+
+
+
+
+
+
+
+
