@@ -229,6 +229,49 @@ h2 {
   
 }
 
+/* ===== iPad portrait ===== */
+@media (min-width: 701px) and (max-width: 899px) {
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 100vh;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background: #faf9f6;
+  }
+
+  .sidebar h1 {
+    font-size: 2rem;
+    margin-bottom: 60px;
+  }
+
+  .content {
+    margin-left: 260px;
+    padding: 30px;
+  }
+
+  .home-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .photo-serie {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .photo-serie img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
 @media (min-width: 900px) {
 
   .container {
