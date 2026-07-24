@@ -109,9 +109,12 @@ h2 {
   z-index: 5000;
 }
 
-#lightbox img {
+#lightbox #lightbox img {
   max-width: 90%;
   max-height: 90%;
+  width: auto;
+  height: auto;
+  
 }
 
 /* ===== MENU MOBILE ===== */
