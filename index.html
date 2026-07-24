@@ -8,6 +8,7 @@
   
   
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
 </head>
 <body>
 
@@ -49,7 +50,17 @@
 
 </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '.home-gallery',
+    children: 'a',
+    pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js')
+  });
+
+  lightbox.init();
+</script>
   <script src="./script.js"></script>
 </body>
 </html>
