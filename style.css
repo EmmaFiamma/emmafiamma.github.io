@@ -115,11 +115,12 @@ h2 {
   z-index: 5000;
 }
 
-#lightbox #lightbox img {
-  max-width: 90%;
-  max-height: 90%;
+#lightbox img {
+  max-width: 90vw;
+  max-height: 85vw;
   width: auto;
   height: auto;
+  object-fit: contain;
   
 }
 
