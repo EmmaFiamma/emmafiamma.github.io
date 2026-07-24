@@ -77,9 +77,18 @@ h2 {
   text-align: center;
 }
 
-.contact-page h3 {
-  padding-top: 140px;
+.intro-text {
+  max-width: 600px;
+  margin: 60px auto 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
+
+.intro-text p {
+  margin: 10px 0;
+}
+
 
 /* LIGHTBOX */
 #lightbox {
