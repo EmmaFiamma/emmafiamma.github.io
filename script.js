@@ -92,12 +92,7 @@ lightbox.addEventListener("click", () => {
   lightbox.style.display = "none";
 });
 
-const lightbox = GLightbox({
-  selector: '.glightbox',
-  zoomable: false,
-  touchNavigation: true,
-  loop: true
-});
+
   
 }
 
