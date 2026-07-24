@@ -315,7 +315,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     width: 100%
-    padding-top: 40px;
+    padding-top: 80px;
   }
 
 }
