@@ -93,9 +93,11 @@ lightbox.addEventListener("click", () => {
 });
 
 const lightbox = GLightbox({
-  selector: '.glightbox'
+  selector: '.glightbox',
+  zoomable: false,
+  touchNavigation: true,
+  loop: true
 });
-
   
 }
 
