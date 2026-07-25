@@ -370,6 +370,9 @@ h2 {
     padding: 40px;
   }
 
-
+/* Pas de curseur zoom dans PhotoSwipe */
+.pswp__img {
+  cursor: default !important;
+}
 
 }
