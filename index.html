@@ -60,7 +60,9 @@
     gallery: '.home-gallery',
     children: 'a',
     pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js'),
-    zoom: false
+    initialZoomLevel: 'fit',
+secondaryZoomLevel: 1,
+maxZoomLevel: 1,
   });
 
   lightbox.addFilter('itemData', (itemData) => {
