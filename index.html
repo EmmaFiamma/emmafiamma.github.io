@@ -88,6 +88,15 @@ const lightbox = new PhotoSwipeLightbox({
 lightbox.on('contentActivate', function(e) {
   e.preventDefault();
 });
+
+lightbox.on('change', () => {
+  const pswp = lightbox.pswp;
+
+  if (pswp) {
+    pswp.options.doubleTapAction = false;
+    pswp.options.tapAction = 'close';
+  }
+});
   
   lightbox.init();
 </script>
