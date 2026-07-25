@@ -59,7 +59,8 @@
   const lightbox = new PhotoSwipeLightbox({
     gallery: '.home-gallery',
     children: 'a',
-    pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js')
+    pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js'),
+    zoom: false
   });
 
   lightbox.addFilter('itemData', (itemData) => {
