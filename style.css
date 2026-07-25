@@ -94,11 +94,18 @@ h2 {
   margin: 10px 0;
 }
 
-.home-gallery img {
+.home-gallery a {
+  display: block;
+}
+
+.home-gallery a img {
   width: 100%;
   height: auto;
   display: block;
- } 
+}
+
+
+
 
 
 /* LIGHTBOX */
