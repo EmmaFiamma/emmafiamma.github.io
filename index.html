@@ -85,6 +85,10 @@ const lightbox = new PhotoSwipeLightbox({
     return itemData;
   });
 
+lightbox.on('contentActivate', function(e) {
+  e.preventDefault();
+});
+  
   lightbox.init();
 </script>
 
