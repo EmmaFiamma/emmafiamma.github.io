@@ -53,7 +53,6 @@
   </section>
 
 </main>
-
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
 
@@ -63,8 +62,19 @@
     pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js')
   });
 
+  lightbox.addFilter('itemData', (itemData) => {
+    const img = new Image();
+    img.src = itemData.src;
+
+    itemData.w = img.naturalWidth;
+    itemData.h = img.naturalHeight;
+
+    return itemData;
+  });
+
   lightbox.init();
 </script>
+
   <script src="./script.js"></script>
 </body>
 </html>
