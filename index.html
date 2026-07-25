@@ -94,10 +94,14 @@ lightbox.on('change', () => {
   }
 });
 
-  document.addEventListener('click', (e) => {
-  if (window.innerWidth >= 900 && e.target.closest('.pswp__img')) {
-    e.stopPropagation();
-    lightbox.pswp.close();
+ document.addEventListener('click', (e) => {
+  if (e.target.closest('.pswp__img')) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    setTimeout(() => {
+      lightbox.pswp.close();
+    }, 50);
   }
 }, true);
   
