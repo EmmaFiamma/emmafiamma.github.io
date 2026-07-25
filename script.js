@@ -43,7 +43,7 @@ if (data) {
     div.className = "image";
 
     div.innerHTML = `
-      <img src="${img.src}" onclick="openLightbox('${img.src}')">
+      <img src="${img.src}">
       <div class="caption">
         <strong>${img.titre}</strong><br>
         ${img.infos}
