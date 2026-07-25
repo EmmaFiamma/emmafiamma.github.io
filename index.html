@@ -62,10 +62,9 @@ const lightbox = new PhotoSwipeLightbox({
   pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js'),
 
   zoom: false,
-  pinchToClose: false,
   wheelToZoom: false,
   doubleTapAction: false,
-  tapAction: false
+  tapAction: 'close'
 });
 
 
