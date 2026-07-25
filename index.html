@@ -93,6 +93,13 @@ lightbox.on('change', () => {
     pswp.options.tapAction = 'close';
   }
 });
+
+  document.addEventListener('click', (e) => {
+  if (window.innerWidth >= 900 && e.target.closest('.pswp__img')) {
+    e.stopPropagation();
+    lightbox.pswp.close();
+  }
+}, true);
   
   lightbox.init();
 </script>
