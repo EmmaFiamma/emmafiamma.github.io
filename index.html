@@ -56,14 +56,18 @@
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
 
-  const lightbox = new PhotoSwipeLightbox({
-    gallery: '.home-gallery',
-    children: 'a',
-    pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js'),
-    initialZoomLevel: 'fit',
-secondaryZoomLevel: 1,
-maxZoomLevel: 1,
-  });
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '.home-gallery',
+  children: 'a',
+  pswpModule: () => import('https://unpkg.com/photoswipe/dist/photoswipe.esm.js'),
+
+  zoom: false,
+  pinchToClose: false,
+  wheelToZoom: false,
+  doubleTapAction: false
+});
+
+
 
   lightbox.addFilter('itemData', (itemData) => {
     const img = new Image();
