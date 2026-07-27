@@ -200,6 +200,14 @@ h2 {
 
 }
 
+
+.home-gallery a {
+  display: block;
+  margin-bottom: 12px; /* espace entre les images */
+}
+
+  
+
  .photo-serie {
     width: 100%;
     max-width: 100%;
