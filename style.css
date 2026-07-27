@@ -405,3 +405,35 @@ h2 {
 
   }
   }
+
+
+
+
+/* ===== Sous-séries ===== */
+
+.subseries-gallery {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.subseries-card {
+  display: block;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 50px;
+}
+
+.subseries-card img {
+  width: 100%;
+  display: block;
+}
+
+.subseries-card h2 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: left;
+}
+
+
+
