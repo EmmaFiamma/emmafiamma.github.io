@@ -404,6 +404,26 @@ h2 {
     box-sizing: border-box;
 
   }
+
+.subseries-gallery {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subseries-card {
+  margin-bottom: 20px;
+}
+
+.subseries-card img {
+  width: 100%;
+  display: block;
+}
+
+.subseries-card h2 {
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+  
   }
 
 
