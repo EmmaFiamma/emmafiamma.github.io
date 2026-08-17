@@ -17,7 +17,8 @@ body {
   padding: 20px 15px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
@@ -68,7 +69,7 @@ h2 {
   width: 100%;
   max-width: 700px;
   height: auto;
-  display: block; 
+  display: block;
   margin: 30px auto;
 }
 
@@ -104,10 +105,6 @@ h2 {
   display: block;
 }
 
-
-
-
-
 /* LIGHTBOX */
 
 
@@ -122,6 +119,7 @@ h2 {
 .mobile-title {
   display: none;
 }
+
 
 @media (max-width: 700px) {
 
@@ -140,7 +138,7 @@ h2 {
   .sidebar h1 {
     display: none;
   }
-  
+
   .mobile-menu-btn {
     display: block;
     position: fixed;
@@ -173,35 +171,36 @@ h2 {
   }
 
   .mobile-title {
-  display: block;
-  position: fixed;
-  top: 28px;
-  left: 20px;
-  margin: 0;
-  z-index: 1000;
-  font-size: 1.2rem;
-  font-weight: normal;
-}
+    display: block;
+    position: fixed;
+    top: 28px;
+    left: 20px;
+    margin: 0;
+    z-index: 1000;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
 
-.mobile-title a {
-  color: #222;
-  text-decoration: none;
-}
+  .mobile-title a {
+    color: #222;
+    text-decoration: none;
+  }
 
-.content {
-  padding: 80px 10px 0 10px;
-}
+  .content {
+    padding: 80px 10px 0 10px;
+  }
 
-@media (max-width: 700px) {
+  /* ===== MOSAÏQUE MOBILE 2 COLONNES ===== */
+
   .home-gallery {
     column-count: 2;
-    column-gap: 12px;
+    column-gap: 8px;
     width: 100%;
   }
 
   .home-gallery a {
     display: block;
-    margin: 0 0 12px 0;
+    margin: 0 0 8px 0;
     break-inside: avoid;
   }
 
@@ -210,11 +209,8 @@ h2 {
     height: auto;
     display: block;
   }
-}
 
-  
-
- .photo-serie {
+  .photo-serie {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
@@ -228,14 +224,14 @@ h2 {
     max-width: 600px;
     height: auto;
     display: block;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
-  
-  
 }
 
+
 /* ===== iPad portrait ===== */
+
 @media (min-width: 701px) and (max-width: 899px) {
 
   .sidebar {
@@ -275,25 +271,29 @@ h2 {
     height: auto;
   }
 
-.intro-text {
-  max-width: 500px;
-  margin: 100px auto 0 auto;
-  transform: translateX(40px);
-  text-align: center;
-}
+  .intro-text {
+    max-width: 500px;
+    margin: 100px auto 0 auto;
+    transform: translateX(40px);
+    text-align: center;
   }
 
+}
+
+
+/* ===== iPad portrait PhotoSwipe ===== */
+
 @media (min-width: 701px) and (max-width: 899px) and (orientation: portrait) {
+
   .pswp__img {
     padding: 25px;
     box-sizing: border-box;
   }
 
-
-  
 }
 
 
+/* ===== DESKTOP ===== */
 
 @media (min-width: 900px) {
 
@@ -330,28 +330,30 @@ h2 {
   }
 
 }
+
+
 .series li.contact {
   margin-top: 50px;
 }
 
- .photo-serie {
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto 2rem;
-    display: block;
-  
-  }
 
- .photo-serie {
-    max-width: 600px;
-    margin: 0 auto;
-  
-  }
+.photo-serie {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 2rem;
+  display: block;
+}
 
- .photo-serie img {
-    max-width: 100%;
-  }
- 
+
+.photo-serie {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.photo-serie img {
+  max-width: 100%;
+}
 
 
 /* ===== SIDEBAR FIXE ===== */
@@ -364,7 +366,7 @@ h2 {
 
   .sidebar {
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0;
     width: 240px;
     height: 100vh;
@@ -384,7 +386,6 @@ h2 {
   .sidebar .series {
     list-style: none;
     padding: 0;
-   
   }
 
   .sidebar .series li {
@@ -400,39 +401,37 @@ h2 {
     padding: 40px;
   }
 
-/* Pas de curseur zoom dans PhotoSwipe */
-.pswp__img {
-  cursor: default !important;
-}
+  /* Pas de curseur zoom dans PhotoSwipe */
+
+  .pswp__img {
+    cursor: default !important;
+  }
 
   .pswp__img {
     padding: 25px;
     box-sizing: border-box;
-
   }
 
-.subseries-gallery {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.subseries-card {
-  margin-bottom: 20px;
-}
-
-.subseries-card img {
-  width: 100%;
-  display: block;
-}
-
-.subseries-card h2 {
-  margin-top: 8px;
-  font-size: 1.1rem;
-}
-  
+  .subseries-gallery {
+    width: 100%;
+    margin: 0 auto;
   }
 
+  .subseries-card {
+    margin-bottom: 20px;
+  }
 
+  .subseries-card img {
+    width: 100%;
+    display: block;
+  }
+
+  .subseries-card h2 {
+    margin-top: 8px;
+    font-size: 1.1rem;
+  }
+
+}
 
 
 /* ===== Sous-séries ===== */
@@ -460,6 +459,3 @@ h2 {
   font-weight: normal;
   text-align: left;
 }
-
-
-
