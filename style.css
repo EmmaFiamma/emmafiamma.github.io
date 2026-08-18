@@ -195,7 +195,9 @@ h2 {
   .home-gallery {
     column-count: 2;
     column-gap: 8px;
-    width: 100%;
+    width: calc(100% -30px); 
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .home-gallery a {
